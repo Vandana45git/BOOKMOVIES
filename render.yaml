@@ -3,7 +3,7 @@ services:
     name: bookmovies-app
     env: node
     buildCommand: cd client && npm install && npm run build
-    startCommand: node server/server.js
+    startCommand: node index.js
     envVars:
       - key: NODE_ENV
         value: production
