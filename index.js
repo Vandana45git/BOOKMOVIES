@@ -1,1 +1,2 @@
-require('./server/server.js');
+const path = require('path');
+require(path.join(__dirname, 'server', 'server.js'));
